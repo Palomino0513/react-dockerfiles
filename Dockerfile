@@ -1,4 +1,4 @@
-form ngnix:latest
+FROM ngnix:latest
 
 # install node and npm
 RUN curl -sSL --show-error https://deb.nodesource.com/setup_11.x | bash -
